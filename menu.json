@@ -16,9 +16,9 @@
             "name": "Burger",
             "price": 10,
             "image_url": "https://i.imgur.com/Mcgmjaz.png", 
-			"extra_image_urls": ["https://i.imgur.com/Tsj3NOK.png"],			
+	    "extra_image_urls": ["https://i.imgur.com/Tsj3NOK.png"],			
             "description": "Delicious Burger",         
-             "attributes_groups": [                
+            "attributes_groups": [                
             ],  
             "available": false
         }
