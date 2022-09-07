@@ -1,0 +1,42 @@
+{
+    "attributes": [
+		{
+			"id": "fries_1",
+		    "name": "French fries",
+		    "selected_by_default": false,
+		    "price_impact": 1,
+		    "available": false
+		}
+    ],
+    "attribute_groups": [
+    ],
+    "products": [
+        {
+            "id": "burger_1",
+            "name": "Burger",
+            "price": 10,
+            "image_url": "https://i.imgur.com/Mcgmjaz.png", 
+			"extra_image_urls": ["https://i.imgur.com/Tsj3NOK.png"],			
+            "description": "Delicious Burger",         
+             "attributes_groups": [                
+            ],  
+            "available": false
+        }
+    ],
+    "collections": [
+        {
+            "name": "Menus",
+            "position": 0,
+            "image_url": "https://i.imgur.com/Qj5MlEH.png",
+            "sections": [
+                {
+                    "name": "Burger menus",
+                    "position": 1,
+                    "products": [
+                        "burger_1"
+                    ]
+                }
+            ]
+        }
+    ]
+}
