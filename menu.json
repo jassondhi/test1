@@ -1,12 +1,12 @@
 {
     "attributes": [
-		{
-			"id": "fries_1",
-		    "name": "French fries",
-		    "selected_by_default": false,
-		    "price_impact": 1,
-		    "available": false
-		}
+	{
+	    "id": "fries_1",
+	    "name": "French fries",
+	    "selected_by_default": false,
+	    "price_impact": 1,
+	    "available": false
+	}
     ],
     "attribute_groups": [
     ],
