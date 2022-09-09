@@ -1,0 +1,82 @@
+{
+    "attributes": [
+	{
+	    "id": "2",
+	    "name": "HAM",
+	    "selected_by_default": false,
+	    "price_impact": 3,
+	    "available": true
+	}, 
+    {
+        "id": "4",
+        "name": "HAM2",
+        "selected_by_default": false,
+        "price_impact": 2,
+        "available": true
+    },
+    {
+        "id": "5",
+        "name": "HAM3",
+        "selected_by_default": false,
+        "price_impact": 1,
+        "available": true
+    }
+    ],
+    "attribute_groups": [
+        {
+          "id": "HAMChild",
+          "name": "Choose a ham",
+          "min": 0,
+          "max": 1,
+          "collapse": true,
+          "multiple_selection": false,
+          "attributes": [
+            "2",
+            "4",
+            "5"
+          ]
+        }
+    ],
+    "products": [
+        {
+            "id": "1",
+            "name": "Chees Bolls",
+            "price": 17,
+            "image_url": "https://i.imgur.com/Mcgmjaz.png", 
+	    "extra_image_urls": ["https://i.imgur.com/Tsj3NOK.png"],			
+            "description": "Chees Bolls",         
+            "attributes_groups": [                
+            ],  
+            "available": true
+        },
+        {
+            "id": "3",
+            "name": "HAMParent",
+            "price": 10,
+            "image_url": "https://i.imgur.com/Mcgmjaz.png", 
+        "extra_image_urls": ["https://i.imgur.com/Tsj3NOK.png"],            
+            "description": "Ham",         
+            "attributes_groups": [ 
+                "HAMChild"
+            ],  
+            "available": true
+        }
+    ],
+    "collections": [
+        {
+            "name": "Menus",
+            "position": 0,
+            "image_url": "https://i.imgur.com/Qj5MlEH.png",
+            "sections": [
+                {
+                    "name": "Menu1",
+                    "position": 1,
+                    "products": [
+                        "1", 
+                        "3"
+                    ]
+                }
+            ]
+        }
+    ]
+}
